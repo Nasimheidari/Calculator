@@ -57,9 +57,6 @@ const convertor = (input) => {
 
 const calculate = () => {
   convertor(input);
-  // arrayOfInputs.push(+numberString);
-
-  //   document.getElementById("operations").innerText = " ";
   if (typeof arrayOfInputs[0] === "number") {
     total = arrayOfInputs[0];
   }
@@ -87,30 +84,3 @@ const equal = () => {
   calculate();
 };
 
-// case "percentage":
-//         if( calculationArray.length == 0 ){
-//               numberString/=100
-//               calculate()
-//           }
-//           if( calculationArray.length > 0){
-//                 const lastIndexItem = calculationArray[calculationArray.length-1]
-//                 if(lastIndexItem === "+" ){
-//                     calculate();
-//                     numberString = total + total*numberString/100
-//                     calculationArray = [total]
-//                 }
-//                 if( lastIndexItem === "-"){
-//                     calculate();
-//                     numberString = total + total*numberString/100
-//                     calculationArray = [total]
-//                 } if(lastIndexItem === "x" ){
-//                     console.log(numberString)
-//                     numberString=numberString/100
-//                     calculate()
-//                 }
-//                 if( lastIndexItem === "÷"){
-//                     numberString=numberString/100
-//                     calculate()
-//                 }
-//           }
-//     break;
