@@ -21,7 +21,6 @@
     <div class="calculator">
       <div class="Display">
         <div> <input class="input" type="text" id="userinput" placeholder="0"></div>
-        <!-- <div> <input class="output" type="number" id="result"></div> -->
         <div class="output" id="result"></div>
       </div>
       <div class="main">
@@ -32,7 +31,7 @@
           <button onclick="negative('+-')">
             <img src="./Assets/+-.svg" alt="+-" />
           </button>
-          <button onclick="percentage('%')">
+          <button class="number" onclick="percentage('%')">
             <img src="./Assets/%.svg" alt="%" />
           </button>
           <button class="number" id="key" onclick="number(7)">7</button>
